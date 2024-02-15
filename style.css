@@ -1,0 +1,255 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #EEEDEB; /* This sets the yellow background color */
+    color: #3C3633;
+    text-align: center; /* Centers text */
+    margin: 0;
+    padding: 0;
+}
+
+.subtext {
+    font-family: sans-serif;
+    padding: 12px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #3C3633; /* Dark background for header */
+}
+
+.intro {
+    padding: 50px 20px;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    color: white;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px; 
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #3C3633;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px auto;
+    display: block;
+    object-fit: cover;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: grey;
+}
+
+footer {
+    background-color: #3C3633;
+    color: #EEEDEB;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footerContainer {
+    max-width: 100%;
+    margin: auto;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* halaman about */
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+  
+  /* Styling navigation */
+  nav {
+    background-color: #3C3633; /* Gradasi latar belakang */
+    color: white; /* Warna teks nav */
+  }
+  
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .menu ul {
+    list-style: none;
+  }
+  
+  .menu ul li {
+    display: inline;
+    margin-left: 20px;
+  }
+  
+  /* Styling about section */
+  .about {
+    background-color: #EEEDEB ; /* Gradasi latar belakang */
+    color: black; /* Warna teks */
+    padding: 50px 20px; /* Spasi di dalam div about */
+  }
+  
+  .about-text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .subtext {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+/* Header Web Personal dan Home */
+.logo {
+    font-size: 24px;
+}
+  
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+}  
+
+/* footer about */
+/* footer {
+    position: absolute; /* Mengatur posisi footer menjadi absolut */
+    /* bottom: 0; /* Meletakkan footer di bagian bawah halaman */
+    /* width: 100%;
+    background-color: #3C3633;
+    color: #EEEDEB;
+    padding: 20px 0;
+    text-align: center; */
+/* } */ */
+
+/* .footerContainer {
+    max-width: 100%;
+    margin: auto;
+} */
+
+/* footer p {
+    margin: 0;
+} */ */
+
+/* halaman courses */
+header {
+    background-color: #3C3633;
+    color: white;
+    padding: 20px 0;
+}
+
+.subtext {
+    font-family: sans-serif;
+    padding: 12px;
+}
+
+.courses-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.tabel {
+    width: 80%; /* Lebar tabel */
+    border-collapse: collapse;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+section {
+    width: 48%; /* Lebar tabel */
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+th, td {
+    padding: 10px;
+    border: 1px solid #3C3633;
+}
+
+th {
+    background-color: #EEEDEB;
+}
+
+section:nth-child(even) {
+    background-color: #EEEDEB;
+}
